@@ -1,0 +1,430 @@
+header{
+    background-color: #282B3E;
+}
+header .right-nav .nav-list ul li a{
+    color: #ffffff;
+}
+header .right-nav .language span{
+    color: #ffffff;
+}
+.invest-details-wrapper{
+    width: 100%;
+    
+}
+.company-details-group{
+    position: relative;
+    /* max-width: 1590px; */
+    width: 1590px;
+    margin: 61px auto 0px;
+    padding-top: 76px;
+}
+.company-details-group .left-company-info{
+    margin-right: 403px;
+}
+.company-details-group .left-company-info .company-name-logo{
+    overflow: hidden;
+}
+.company-name-logo .img-box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #707070;
+    text-align: center;
+    padding: 32px 23px;
+    float: left;
+}
+.company-name-logo .img-box img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: gold;
+}
+.company-name-logo .company-name-box{
+    float: left;
+    margin-top: 26px;
+    vertical-align: top;
+    margin-left: 22px;
+}
+
+.company-name-logo .name{
+    display: block;
+    line-height: 1;
+}
+.company-name-logo .name span{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 37px;
+    color: #282B3E;
+    
+}
+.company-name-logo .name span:first-of-type{
+    font-weight:bold;
+    font-size: 37px;
+    vertical-align: top;
+}
+.company-name-logo .name span:last-of-type{
+    font-weight: 400;
+}
+.company-name-logo .found-box{
+    margin-top: 15px;
+}
+.company-name-logo .found-box span{
+    font-size:18px;
+    font-family:PingFang-SC-Medium;
+    font-weight:bold;
+    line-height: 16px;
+    color: #282B3E;
+}
+.company-details-group .introduce-content{
+    margin-top: 23px;
+}
+.company-details-group .introduce-content p{
+    font-size:16px;
+    font-weight:500;
+    line-height:30px;
+    font-family:PingFang-SC-Medium;
+    color:#222222;
+    
+}
+
+.company-details-group .right-link-inst{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 403px;
+    padding-left: 121px;
+    padding-top: 53px;
+}
+.company-details-group .right-link-inst a{
+    display: inline-block;
+    height: 45px;
+    width: 200px;
+    line-height: 45px;
+    text-align: center;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    background-color: #ffffff;
+    color: #00A758;
+    border:1px solid rgba(46,188,79,1);
+    transition: all .6s ease;
+}
+.company-details-group .right-link-inst a:hover{
+    background-color: rgba(0,167,88,0.15)
+
+}
+
+
+
+/* 项目概况 */
+.project-situation-group{
+    margin-bottom: 70px;
+}
+.project-situation-group .title{
+    margin-top: 44px;
+    border-bottom: 1px solid #D2D4D3;
+}
+.project-situation-group .title > div{
+    max-width: 1590px;
+    margin: 0 auto;
+}
+.project-situation-group .title > div span{
+    display: inline-block;
+    font-size:20px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    line-height: 20px;
+    color: #00A758;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #00A758;
+    color: #00A758;
+}
+
+.main-financing-info{
+    /* max-width: 1590px; */
+    width: 1590px;
+    margin: 0 auto;
+    padding-top: 45px;
+    overflow: hidden;
+}
+.main-financing-info .chart-or-quota{
+    /* overflow: hidden; */
+}
+.main-financing-info .chart-or-quota .quota{
+    padding: 30px 33px 27px 35px;
+}
+/* 图标 */
+.chart-or-quota .chart{
+    /* width: calc(100% - 373px - 34px); */
+    /* border: 1px solid #00A758; */
+    height: 379px;
+    padding-top: 8px;
+}
+.chart-or-quota .chart p{
+    font-weight: bold;
+    font-size:20px;
+    font-family:PingFang-SC-Bold;
+    line-height: 20px;
+    color: #282B3E;
+}
+.chart-or-quota .chart #chart-main{
+    height: 351px;
+    width: 1186px;
+}
+
+
+
+.chart-or-quota .quota{
+    width: 373px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(202,241,219,1);
+}
+
+.chart-or-quota .quota .list .row{
+    overflow: hidden;
+    margin-top: 24px;
+}
+.chart-or-quota .quota .list .row:first-of-type{
+    margin-top: 0;
+}
+.chart-or-quota .quota .list .row span{
+    float: left;
+    font-weight:500;
+    font-size:16px;
+    line-height: 16px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(102,102,102,1);
+}
+.chart-or-quota .quota .list .row i{
+    float: right;
+    font-weight:bold;
+    font-size:16px;
+    line-height: 16px;
+    font-family:PingFang-SC-Bold;
+    color: #00A758;
+}
+
+
+.chart-or-quota .quota .rem-days-progress{
+    margin-top: 75px;
+}
+.rem-days-progress .text-box{
+    overflow: hidden;
+}
+.rem-days-progress .text-box div{
+    line-height: 1;
+}
+.rem-days-progress .text-box div span{
+    display: inline-block;
+    font-weight:500;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    line-height: 14px;
+    color:rgba(102,102,102,1);
+}
+.rem-days-progress .text-box .progress .percentage{
+    color: #FF695A;
+}  
+.rem-days-progress .progress-outer{
+    width: 100%;
+    height: 3px;
+    background-color: #D2D4D3;
+    position: relative;
+    margin-top: 13px;
+}
+.rem-days-progress .progress-inner{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #FF695A;
+    transition: width .5s ease;
+}
+
+.quota .apply-buy-btn{
+    margin-top: 39px;
+}
+.quota .apply-buy-btn button{
+    width: 100%;
+    height: 50px;
+    font-weight:500;
+    font-size:16px;
+    line-height: 50px;
+    font-family:PingFang-SC-Medium;
+    border: 1px solid transparent;
+    background-color: #00A758;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all .5s ease;
+}
+.quota .apply-buy-btn button:hover{
+    background-color: #ffffff;
+    border-color: #00A758;
+    color: #00A758;
+}
+
+
+
+.main-financing-info .inves-company-list{
+    margin-top: 48px;
+    width: calc(100% - 373px - 34px);
+}
+.main-financing-info .inves-company-list p,
+.main-financing-info .history p,
+.main-financing-info .com-news p{
+    font-weight:bold;
+    font-size:20px;
+    line-height: 20px;
+    font-family:PingFang-SC-Bold;
+    color: #282B3E;
+}
+.inves-company-list .list{
+    margin-top: 43px;
+    overflow: hidden;
+}
+.inves-company-list .list .item{
+    float: left;
+    width:172px;
+    height:95px;
+    border: 1px solid #D2D4D3;
+    background:rgba(255,255,255,1);
+    position: relative;
+    margin-right: 30px;
+}
+.inves-company-list .list .item:last-of-type{
+    margin-right: 0px;
+}
+.inves-company-list .list .item img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-financing-info .history{
+    margin-top: 47px;
+    width: 1186px;
+}
+
+.history .table{
+    margin-top: 25px;
+    border: 1px solid #D2D4D3;
+}
+.history .table div dl{
+    /* padding-left: 30px; */
+    overflow: hidden;
+    padding: 17px 0px;
+}
+.history .table .tbody dl{
+    border-top: 1px solid #D2D4D3;
+}
+.history .table .tbody dl:nth-child(2n){
+    background-color: rgba(234,248,240,0.8);
+}
+.history .table div dl dd{
+    float: left;
+    font-weight:500;
+    font-size: 15px;
+    font-family: PingFang-SC-Medium;
+    line-height: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 10px;
+}
+.history .table .head dl dd{
+    color: #808080
+}
+.history .table dl dd:first-child{
+    width: 204px;
+    padding-left: 30px;
+}
+.history .table dl dd:nth-child(2){
+    width: 220px;
+}
+.history .table dl dd:nth-child(3){
+    width: 213px;
+}
+.history .table dl dd:nth-child(4){
+    width: 174px;
+}
+.history .table dl dd:nth-child(5){
+    width: 373px;
+}
+.history .table .tbody dl dd{
+    color: #222222;
+}
+
+
+/* 新闻 */
+.main-financing-info .com-news{
+    width: 1186px;
+    margin-top: 50px;
+}
+
+.main-financing-info .com-news .items-box{
+    margin-top: 43px;
+}
+.main-financing-info .com-news .items-box .item{
+    padding-bottom: 28px;
+    border-bottom: 1px solid #D2D4D3;
+    overflow: hidden;
+    margin-bottom: 27px;
+    position: relative;
+}
+.main-financing-info .com-news .items-box .item:last-child{
+    border-bottom-color: transparent;
+    margin-bottom: 0px;
+}
+.com-news .items-box .item img{
+    float: left;
+    width: 200px;
+    height: 123px;
+}
+.com-news .items-box .item .content-info{
+    margin-left: 239px;
+    padding-right: 137px;
+    margin-top: 26px;
+}
+.items-box .item .content-info .time-title{
+    line-height: 1;
+}
+.items-box .item .content-info .time-title span,
+.items-box .item .content-info .time-title i{
+    display: inline-block;
+    font-weight:500;
+    font-size:14px;
+    line-height: 14px;
+    font-family:PingFang-SC-Medium;
+    color:#282B3E;
+}
+.items-box .item .content-info .time-title i{
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+    float: right;
+}
+.items-box .item .content-info .content{
+    font-weight:500;
+    font-size: 12px;
+    line-height: 19px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color: #333333;
+    margin-top: 27px;
+}
+.items-box .item .content-info a{
+    position: absolute;
+    right: 0;
+    top:67px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family:PingFang-SC-Medium;
+    color: #333333;
+    transition: color .5s ease;
+}
+.items-box .item .content-info a:hover{
+    color: #00A758;
+}

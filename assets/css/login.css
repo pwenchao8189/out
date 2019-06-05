@@ -1,0 +1,165 @@
+.login-mian{
+    position: relative;
+}
+.login-mian .group{
+    position: absolute;
+    width: 480px;
+    top: 225px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-mian .group .title h1,
+.login-mian .title div{
+    font-weight:500;
+    font-size:32px;
+    line-height: 32px;
+    font-family:PingFang-SC-Medium;
+    color: #282B3E;
+}
+.login-mian .group .title div{
+    margin-top: 14px;
+}
+.login-from{
+    margin-top: 62px;
+}
+.login-from .input-phon-item{
+    width: 100%;
+    position: relative;
+}
+.login-from .input-phon-item input{
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 1px solid #C2C2C2;
+    color: #333333;
+}
+
+.login-from .input-phon-item .spec-phone{
+    position: absolute;
+    padding: 0px 8px;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 13px;
+    color:rgba(119,119,119,1);
+    background-color: #fff;
+    top: -7px;
+    left: 20px;
+    text-align: center;
+}
+
+.input-phon-item .sucess-icon,.input-phon-item .error-icon{
+    position: absolute;
+    top: 50%;
+    right: -7px;
+    height: 15px;
+    width: 15px;
+    transform: translateY(-50%);
+}
+.input-phon-item .sucess-icon{
+    background: url('../images/transfer_eq_inv/new/sucess_icon.png') no-repeat center /100% 100%;
+}
+
+.input-phon-item .error-icon{
+    background: url('../images/transfer_eq_inv/new/error_icon.png') no-repeat center /100% 100%;
+}
+
+.login-from .hide{
+    display: none !important;
+}
+.input-phon-item small{
+    font-weight:500;
+    font-size: 12px;
+    line-height: 12px;
+    font-family:PingFang-SC-Medium;
+    color: #EB4E5C;
+    position: absolute;
+    bottom: -21px;
+    left: 0; 
+}
+
+
+.login-from .get-code-btn-item{
+    margin-top: 38px;
+}
+.login-from .get-code-btn-item button{
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 55px;
+    background-color: #00A758;
+    color: #ffffff;
+    border: 1px solid transparent;
+    transition: all .5s ease;
+}
+.login-from .get-code-btn-item button:hover{
+    background-color: #ffffff;
+    color: #00A758;
+    border-color: #00A758;
+}
+
+.login-from .checkbox-pwd-group{
+    margin-top: 28px;
+    overflow: hidden;
+}
+.checkbox-pwd-group .checkbox-box{
+
+}
+
+.label-checkbox{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    background: #fff;
+    border: 1px solid #C2C2C2;
+    position: relative;
+    cursor: pointer;
+}
+.checkbox-box input[type="checkbox"]{
+    display: none;
+}
+.checkbox-input:checked~.label-checkbox{
+    border-color: #00A758;
+}
+.checkbox-input:checked~.label-checkbox::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 9px;
+    height: 7px;
+    transform: translate(-50%,-50%);
+    background: url('../images/transfer_eq_inv/new/Hook.png') no-repeat center /100% 100%;
+}
+.checkbox-pwd-group .checkbox-box input{
+    vertical-align: middle
+}
+.checkbox-pwd-group .checkbox-box span{
+    font-weight:500;
+    font-size: 14px;
+    line-height: 13px;
+    font-family:PingFang-SC-Medium;
+    color: #666666;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+.checkbox-pwd-group .pwd-login{
+   
+}   
+.checkbox-pwd-group .pwd-login a{
+    font-size: 14px;
+    line-height: 14px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    transition: color  .5s ease;
+}  
+.checkbox-pwd-group .pwd-login a:hover{
+    color: #00A758;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <script src="./lib/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header>
+        <div class="top-logo l">
+            <img src="./assets//images/logo.png" alt="">
+        </div>
+        <div class="right-nav r">
+            <div class="nav-list l">
+                <ul>
+                    <li>
+                        <a href="./invest02.html">股权投资</a>
+                    </li>
+                    <li>
+                        <a href="./trans02.html">股权转让</a>
+                    </li>
+                    <li>
+                        <a href="./celebrityEquity.html">明星股权</a>
+                    </li>
+                    <li>
+                        <a href="./aboutUs.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">注册登录</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="language l">
+                <span>CN</span>
+            </div>
+        </div>
+    </header>
+    <section class="login-mian">
+        <div class="group">
+            <div class="title">
+                <h1>你好，</h1>
+                <div>你好 欢迎来到 VCFA</div>
+            </div>
+            <div class="login-from">
+                <div class="input-phon-item phon-text">
+                    <input type="text" placeholder="手机号码">
+                    <span class="spec-phone hide">手机号码</span>
+                    <i class="sucess-icon hide"></i>
+                    <i class="error-icon hide"></i>
+                </div>
+                <div class="input-phon-item hide code-input-item">
+                    <input type="text" placeholder="短信验证码">
+                    <span class="spec-phone hide">短信验证码</span>
+                    <i class="sucess-icon hide"></i>
+                    <i class="error-icon hide"></i>
+                    <small class="tips hide">请输入正确短信验证码</small>
+                </div>
+                <div class="get-code-btn-item">
+                    <button>获取验证码</button>
+                </div>
+                <div class="checkbox-pwd-group">
+                    <div class="checkbox-box l">
+                        <input name="checkbox" id="checkId" class="checkbox-input" type="checkbox"/>
+                        <label for="checkId" class="label-checkbox"></label>
+                        <span>同意《 VCFA 用户协议 》</span>
+                    </div>
+                    <div class="pwd-login r">
+                        <a href="">密码登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var lis=$('.nav-list ul li');
+        var flag=true;
+
+        for(var i=0 ; i<lis.length ; i++){
+            lis[i].index=i;
+            $(lis[i]).on('click',function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        }
+        let reg = /^[1][3,4,5,7,8][0-9]{9}$/;
+
+        $('.phon-text input').on('input' , function(val){
+            $(this).val($(this).val().replace(/[^0-9]/g, ''))
+            let inVal= $(this).val();
+            $('.spec-phone').removeClass('hide');
+            if(inVal.length<=0){
+                $('.spec-phone').addClass('hide');
+            }
+            // if((inVal.length == 11 && !reg.test(inVal)) || inVal.length > 11){
+            //     $('.error-icon').removeClass('hide');
+                
+            // }else{
+            //     $('.error-icon').addClass('hide');
+            // }
+            if(inVal.length == 11 && reg.test(inVal)){
+                $('.sucess-icon').removeClass('hide');
+            }else{
+                $('.sucess-icon').addClass('hide');
+            }
+        })
+        $('.code-input-item input').on('input' , function(){
+            $(this).val($(this).val().replace(/[^0-9]/g, ''));
+            let codeVal= $(this).val();
+            if(codeVal.length != 6){
+                $('.code-input-item .error-icon').removeClass('hide');
+                $('.code-input-item .tips').removeClass('hide');
+            }else{
+                $('.code-input-item .error-icon').addClass('hide');
+                $('.code-input-item .tips').addClass('hide');
+            }
+        })
+
+
+        let time = 60;
+        let setTime=null;
+        $('.get-code-btn-item button').on('click' , function(){
+            if($('.phon-text').hasClass('hide')){
+                if($('.code-input-item input').val().length != 6){
+                    $('.code-input-item .error-icon').removeClass('hide');
+                    $('.code-input-item .tips').removeClass('hide');
+                }else{
+                    $('.code-input-item .error-icon').addClass('hide');
+                    $('.code-input-item .tips').addClass('hide');
+                }
+            }else{
+                $('.phon-text').addClass('hide').siblings('.code-input-item').removeClass('hide')
+                $('.sucess-icon').addClass('hide');
+            }
+            conuntDown($(this))
+        }) 
+        function conuntDown($obj) {
+            setTime = setInterval(function () {
+                if (time == 0) {
+                    clearInterval(setTime);
+                    $obj.attr('disabled', false);
+                    $obj.text("重新获取");
+                    time = 60;
+                    return
+                } else {
+                    time--;
+                    $obj.attr('disabled', true);
+                    $obj.text('重新获取 '+ time + 's');
+                }
+            }, 1000)
+        } 
+    </script>
+</body>
+</html>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>股权转让02</title>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/trans02.css">
+    <script src="./lib/jquery-1.8.3.min.js"></script>
+    <script src="./lib/echarts.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部导航 -->
+    <header>
+        <div class="top-logo l">
+            <img src="./assets//images/logo.png" alt="">
+        </div>
+        <div class="right-nav r">
+            <div class="nav-list l">
+                <ul>
+                    <li>
+                        <a href="./invest02.html">股权投资</a>
+                    </li>
+                    <li>
+                        <a href="./trans02.html">股权转让</a>
+                    </li>
+                    <li>
+                        <a href="./celebrityEquity.html">明星股权</a>
+                    </li>
+                    <li>
+                        <a href="./aboutUs.html">关于我们</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">注册登录</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="language l">
+                <span>CN</span>
+            </div>
+        </div>
+    </header>
+    <!-- K线图 -->
+    <section class="chart-mian-wrapper">
+        <div class="main-view">
+            <div class="chart-group">
+                <div id="myChart">
+
+
+                </div>
+            </div>
+            <!-- 买入卖出 -->
+            <div class="trade-center-group">
+                <div class="buy-sell">
+                    <div class="sell item">
+                        <p class="spec">卖出</p>
+                        <div class="trade-table">
+                            <div class="head">
+                                <dl>
+                                    <dd>卖出价格</dd>
+                                    <dd>剩余数量</dd>
+                                    <dd>总共金额</dd>
+                                    <dd class="last">操作</dd>
+                                </dl>
+                            </div>
+                            <div class="tbody">
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>90,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>80,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="sell">卖出</button>
+                                    </dd>
+                                    <dd class="percent" style="width:100%;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>80,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>60,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="sell">卖出</button>
+                                    </dd>
+                                    <dd class="percent" style="width:455px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>70,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>40,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="sell">卖出</button>
+                                    </dd>
+                                    <dd class="percent" style="width:351px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>60,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>20,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="sell">卖出</button>
+                                    </dd>
+                                    <dd class="percent" style="width:283px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>50,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>10,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="sell">卖出</button>
+                                    </dd>
+                                    <dd class="percent" style="width:283px;"></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buy item">
+                        <p class="spec">买入</p>
+                        <div class="trade-table">
+                            <div class="head">
+                                <dl>
+                                    <dd>买入价格</dd>
+                                    <dd>剩余数量</dd>
+                                    <dd>总共金额</dd>
+                                    <dd class="last">操作</dd>
+                                </dl>
+                            </div>
+                            <div class="tbody">
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>90,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>80,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="buy">买入</button>
+                                    </dd>
+                                    <dd class="percent" style="width:100%;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>80,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>60,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="buy">买入</button>
+                                    </dd>
+                                    <dd class="percent" style="width:455px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>70,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>40,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="buy">买入</button>
+                                    </dd>
+                                    <dd class="percent" style="width:351px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>60,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>20,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="buy">买入</button>
+                                    </dd>
+                                    <dd class="percent" style="width:283px;"></dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>50,000.00</i>
+                                    </dd>
+                                    <dd>
+                                        <i>1000</i>
+                                    </dd>
+                                    <dd>
+                                        <span>CN¥</span>
+                                        <i>10,000.00</i>
+                                    </dd>
+                                    <dd class="last">
+                                        <button class="buy">买入</button>
+                                    </dd>
+                                    <dd class="percent" style="width:283px;"></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script>
+        var lis=$('.nav-list ul li');
+
+        for(var i=0 ; i<lis.length ; i++){
+            lis[i].index=i;
+            $(lis[i]).on('click',function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        }
+        // window.onload=function(){
+        //     $('.progress-inner').animate({width:'229px'},200)
+        // }
+        var myChart = echarts.init(document.getElementById('myChart'));
+        function randomData() {   
+            now = new Date(+now + oneDay);    
+            value = value + Math.random() * 21 - 10;    
+            return {    
+                name: now.toString(),     
+                value: [    
+                    [now.getFullYear(), now.getMonth() + 1, now.getDate()].join('/'),    
+                    Math.round(value)    
+                ]    
+                   
+            }    
+        }    
+            
+        var data = [];    
+        var now = +new Date(1997,1,10);    
+        var oneDay = 24 * 3600 * 1000;    
+        var value = Math.random() * 1000;   
+        for (var i = 0; i < 1000; i++) {    
+            data.push(randomData());    
+        }    
+            
+        option = {    
+            grid:{
+                left:38,
+                top:36,
+                right:36,
+                bottom:0,
+                containLabel: true,
+            },
+            backgroundColor:"#f5f5f5",
+            xAxis:{
+                type:'time',
+                splitNumber:14,
+                axisLine:{
+                    lineStyle:{
+                        color:'#8a8a8a'
+                    },
+                },
+                axisLabel:{
+                    margin:12
+                },
+                splitLine:{
+                    show:true,
+                    lineStyle:{
+                        color:'#e6e7e8'
+                    }
+                }
+            },   
+            yAxis:{
+                type:'value',
+                axisLabel:{
+                    formatter:'$ {value}'       //给Y轴上的刻度加上单位
+                },
+                axisLine:{
+                    lineStyle:{
+                        color:'#8a8a8a'
+                    }
+                },
+                splitNumber:5,
+                splitLine:{
+                    show:true,
+                    lineStyle:{
+                        color:'#e6e7e8'
+                    }
+                }
+            }, 
+            tooltip:{
+                trigger: 'axis',
+                formatter : function(params) {
+                    var result = params[0].value[0];
+                    params.forEach(function(item) {
+                        result += '<br/>';
+                        result += '<span style="display:inline-block;margin-right:5px;border-radius:10px;width:9px;height:9px;background-color:#b1d276"></span>';
+                        result += item.seriesName + "：";
+                        result += isNaN(item.value[1]) ? 0 : (item.value[1]*1024).toFixed(2) + "M";
+                    });
+                    return result;
+                },
+            },  
+            series:{
+                name: '资金',
+                type: 'line',
+                showSymbol: false,
+                symbolSize:12,
+                lineStyle: {
+                    width:2,
+                    color: '#b1d276'
+                },
+                areaStyle: {
+                    color:{
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [
+                            {
+                                offset: 0, color: 'rgba(228, 237, 214 , 1)' 
+                            }, 
+                            {
+                                offset: 1, color: 'rgba(228, 237, 214 , 1)' 
+                            }
+                        ],
+                        globaCoord: false,
+                    }
+                },
+                data: data,
+            }  
+        };    
+        myChart.setOption(option);  
+       setInterval(function () {      
+            for (var i = 0; i < 5; i++) {    
+                data.shift();    
+                data.push(randomData());    
+            }    
+           myChart.setOption(option);  
+        }, 1000);
+    </script>
+</body>
+</html>

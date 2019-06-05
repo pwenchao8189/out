@@ -1,0 +1,186 @@
+.invest-main-wrapper{
+    min-width: 1590px;
+}
+.invest-main-wrapper .group-list{
+    max-width: 1590px;
+    margin: 61px auto 0px;
+    padding-top: 76px;
+}
+.invest-main-wrapper .group-list .banner-item{
+    height: 435px;
+    width: 100%;
+    /* background: url('../images/home/home-anner.png') no-repeat center /100% 100%; */
+    text-align: center;
+    background-color: #00A758;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+.group-list .banner-item .banner-title{
+    /* padding-top: 136px; */
+    position: relative;
+    height: 100%;
+}
+.group-list .banner-item img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.group-list .banner-item .banner-title div{
+    position: absolute;
+    top: 136px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.group-list .banner-item .banner-title div h1,
+.group-list .banner-item .banner-title div h2{
+    font-weight: 400;
+    font-size: 45px;
+    font-family:'PingFang-SC-Regular';
+    line-height: 43px;
+    color: #ffffff;
+}
+.group-list .banner-item .banner-title div h2{
+    font-size: 30px;
+    line-height: 28px;
+    margin-top: 48px;
+}
+
+/* 项目详情列表 */
+.group-list .project-list{
+    width: 1591px;
+    margin-top: 61px;
+    margin-bottom: 85px;
+}
+.group-list .project-list ul{
+    /* overflow: hidden; */
+}
+.group-list .project-list ul li{
+    float: left;
+    width: 373px;
+    /* height: 557px; */
+    background-color:rgba(255,255,255,1);
+    border:1px solid rgba(210,212,211,1);
+    margin-left: 33px;
+    position: relative;
+    transition: all .5s ease;
+}
+.group-list .project-list ul li:hover{
+    box-shadow: 0 0 10px 5px rgba(0,0,0, 0.09);
+}
+.group-list .project-list ul li:first-of-type{
+    margin-left: 0px;
+}
+.project-list ul li .project-item-pic{
+    width: 100%;
+    height: 209px;
+    
+}
+.project-list ul li .small-pic{
+    position: absolute;
+    height: 99px;
+    width: 99px;
+    top: 141px;
+    left: 34px;
+    transition: all .5s ease;
+}
+.project-list ul li .small-pic:hover{
+    transform: scale(1.1);
+}
+.project-list ul li .small-pic img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+.project-list ul li:first-of-type .project-item-pic{
+    background: url('../images/transfer_eq_inv/global-allocation-fund-tw-tile.png') no-repeat center / 100% 100%;
+}
+.project-list ul li:nth-child(2) .project-item-pic{
+    background: url('../images/transfer_eq_inv/investement-2.png') no-repeat center / 100% 100%;
+}
+.project-list ul li:nth-child(3) .project-item-pic{
+    background: url('../images/transfer_eq_inv/investing-in-china-tile.png') no-repeat center / 100% 100%;
+}
+.project-list ul li:nth-child(4) .project-item-pic{
+    background: url('../images/transfer_eq_inv/hero-market-selloff-february.png') no-repeat center / 100% 100%;
+}
+.project-list ul li:first-of-type .small-pic{
+    background-color: #029FE9;
+}
+.project-list ul li:nth-child(2) .small-pic{
+    background-color: #2D59C6;
+}
+.project-list ul li:nth-child(3) .small-pic{
+    background-color: #FD7F3E;
+}
+.project-list ul li:nth-child(4) .small-pic{
+    background-color: #1C5099;
+}
+.project-list ul li:first-of-type .small-pic img{
+    height: 72px;
+    width: 47px;
+}
+.project-list ul li:nth-child(2) .small-pic img{
+    height: 52px;
+    width: 60px;
+}
+.project-list ul li:nth-child(3) .small-pic img{
+    height: 56px;
+    width: 46px;
+}
+.project-list ul li:nth-child(4) .small-pic img{
+    height: 33px;
+    width: 87px;
+}
+
+
+.project-list ul li .project-item-info{
+    padding: 61px 35px 24px;
+}
+.project-list ul li .project-item-info span{
+    display: block;
+    font-weight:500;
+    font-size: 26px;
+    line-height: 25px;
+    font-family:PingFang-SC-Medium;
+    color: #222222;
+}
+.project-list ul li .project-item-info p{
+    font-weight:500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:PingFang-SC-Medium;
+    color: #3A3A3A;
+    margin-top: 114px;
+    margin-bottom: 34px;
+}
+.project-list ul li .project-item-info div{
+    line-height: 1;
+}
+.project-list ul li .project-item-info div a{
+    display: inline-block;
+    font-weight:500;
+    font-size:16px;
+    font-family:PingFang-SC-Medium;
+    line-height: 16px;
+    color: #3A3A3A;
+    position: relative;
+    margin-left: 14px;
+    transition: all .5s ease;
+}
+.project-list ul li .project-item-info div a:hover{
+    color: #00A758;
+}
+.project-list ul li .project-item-info div a::before{
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 12px;
+    width: 8px;
+    background: url('../images/transfer_eq_inv/arrow.png') no-repeat center / 100% 100%;
+}
