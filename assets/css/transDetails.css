@@ -80,7 +80,7 @@ header .right-nav .language span{
     font-weight:500;
     line-height:30px;
     font-family:PingFang-SC-Medium;
-    color:#222222;
+    color:#282B3E;
     
 }
 
@@ -161,6 +161,7 @@ header .right-nav .language span{
     font-weight:bold;
     color:rgba(40,43,62,1);
     line-height:20px;
+    padding-left: 14px;
 }
 .buy-sell .item .trade-table dl{
     overflow: hidden;
@@ -170,7 +171,7 @@ header .right-nav .language span{
     font-size: 16px;
     line-height: 15px;
     font-family:PingFang-SC-Medium;
-    color: #3A3A3A;
+    color: #282B3E;
     float: left;
 }
 .buy-sell .item .trade-table dl dd{
@@ -227,8 +228,8 @@ header .right-nav .language span{
     background-color: rgba(45,186,105,0.08);
 }
 .buy-sell .item .trade-table .tbody dl dd span,
-.buy-sell .item .trade-table .tbody dl dd i,{
-    color: #252525;
+.buy-sell .item .trade-table .tbody dl dd i{
+    color: #282B3E;
 }
 .buy-sell .item .trade-table .tbody dl dd:first-of-type span,
 .buy-sell .item .trade-table .tbody dl dd:first-of-type i{
@@ -274,4 +275,124 @@ header .right-nav .language span{
     color: #00A758;
     background-color: #ffffff;
     
+}
+
+
+.trans-details-wrapper .order-tab-group{
+    width: 1592px;
+    margin: 60px auto 97px;
+}
+.tab-nav-container ul{
+    padding-left: 14px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #D2D4D3;
+}
+.tab-nav-container ul li{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family:PingFang-SC-Bold;
+    color: #282B3E;
+    padding-bottom: 14px;
+    position: relative;
+    margin-right: 34px;
+    cursor: pointer;
+}
+.tab-nav-container ul li:last-child{
+    margin-right: 0px;
+}
+.tab-nav-container ul li.active{
+    color: #00A758;
+}
+.tab-nav-container ul li.active::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 2px;
+    width: 100%;
+    background-color: #00A758;
+}
+.table-container .table-box.hidd{
+    display: none;
+}
+.table-container .table-box .no-data{
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #282B3E;
+}
+.table-container .table-box .head{
+    padding-bottom: 26px;
+}
+.table-container .table-box dl{
+    overflow: hidden;
+}
+.table-container .table-box dl dd{
+    float: left;
+    font-weight:500;
+    font-size: 14px;
+    line-height: 14px;
+    font-family:PingFang-SC-Medium;
+    color: #282B3E;
+    text-align: right;
+}  
+.table-container .table-box .tbody dl dd{
+    height: 50px;
+    line-height: 50px;
+}
+.table-container .table-box .tbody dl:nth-child(2n-1){
+    background-color: rgba(210 , 212 , 211 , 0.1)
+}
+
+
+.table-container .table-box dl dd:first-child{
+    width: 170px;
+    text-align: left;
+    padding-left: 14px;
+}
+.table-container .table-box dl dd:nth-child(2){
+    width: 144px;
+    text-align: left;
+}
+.table-container .table-box dl dd:nth-child(3){
+    width: 70px;
+    
+}
+.table-container .table-box dl dd:nth-child(4){
+    width: 151px;
+}
+.table-container .table-box dl dd:nth-child(5){
+    width: 182px;
+}
+.table-container .table-box dl dd:nth-child(6){
+    width: 206px;
+}
+.table-container .table-box dl dd:nth-child(7){
+    width: 162px;
+}
+.table-container .table-box dl dd:nth-child(8){
+    width: 172px;
+}
+.table-container .table-box dl dd:nth-child(9){
+    width: 162px;
+}
+.table-container .table-box dl dd:last-child{
+    width: 173px;
+    padding-right: 21px;
+}
+.table-container .finish-table dl dd:last-child{
+    width: calc(100% - (170px + 144px + 70px + 151px + 182px + 206px + 162px + 172px))
+}
+.table-container .table-box dl dd.sell{
+    color: #FF695A;
+}
+.table-container .table-box dl dd.buy{
+    color: #00A758;
+}
+.table-container .table-box dl dd.revoke{
+    color: #0F84FD;
+    cursor: pointer;
 }

@@ -81,7 +81,7 @@ header .right-nav .language span{
     font-weight:500;
     line-height:30px;
     font-family:PingFang-SC-Medium;
-    color:#222222;
+    color:#282B3E;
     
 }
 
@@ -140,22 +140,16 @@ header .right-nav .language span{
 }
 
 .main-financing-info{
-    /* max-width: 1590px; */
     width: 1590px;
     margin: 0 auto;
     padding-top: 45px;
     overflow: hidden;
-}
-.main-financing-info .chart-or-quota{
-    /* overflow: hidden; */
 }
 .main-financing-info .chart-or-quota .quota{
     padding: 30px 33px 27px 35px;
 }
 /* 图标 */
 .chart-or-quota .chart{
-    /* width: calc(100% - 373px - 34px); */
-    /* border: 1px solid #00A758; */
     height: 379px;
     padding-top: 8px;
 }
@@ -192,7 +186,7 @@ header .right-nav .language span{
     font-size:16px;
     line-height: 16px;
     font-family:PingFang-SC-Medium;
-    color:rgba(102,102,102,1);
+    color:#282B3E;
 }
 .chart-or-quota .quota .list .row i{
     float: right;
@@ -219,7 +213,7 @@ header .right-nav .language span{
     font-size:14px;
     font-family:PingFang-SC-Medium;
     line-height: 14px;
-    color:rgba(102,102,102,1);
+    color:#282B3E;
 }
 .rem-days-progress .text-box .progress .percentage{
     color: #FF695A;
@@ -334,7 +328,7 @@ header .right-nav .language span{
     padding-right: 10px;
 }
 .history .table .head dl dd{
-    color: #808080
+    color: #282B3E;
 }
 .history .table dl dd:first-child{
     width: 204px;
@@ -353,7 +347,7 @@ header .right-nav .language span{
     width: 373px;
 }
 .history .table .tbody dl dd{
-    color: #222222;
+    color: #282B3E;
 }
 
 
@@ -402,7 +396,7 @@ header .right-nav .language span{
 .items-box .item .content-info .time-title i{
     font-size: 12px;
     line-height: 12px;
-    color: #333333;
+    color: #282B3E;
     float: right;
 }
 .items-box .item .content-info .content{
@@ -411,7 +405,7 @@ header .right-nav .language span{
     line-height: 19px;
     font-family:PingFang-SC-Medium;
     font-weight:500;
-    color: #333333;
+    color: #282B3E;
     margin-top: 27px;
 }
 .items-box .item .content-info a{
@@ -421,7 +415,7 @@ header .right-nav .language span{
     font-weight: 500;
     font-size: 12px;
     font-family:PingFang-SC-Medium;
-    color: #333333;
+    color: #282B3E;
     transition: color .5s ease;
 }
 .items-box .item .content-info a:hover{

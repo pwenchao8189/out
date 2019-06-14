@@ -1,0 +1,155 @@
+.invest-wrapper{
+    width: 100%;
+}
+.view-main{
+    width: 1590px;
+    margin: 61px auto 0px;
+    padding-top: 76px;
+}
+.view-main .top{
+
+}
+.view-main .top p{
+    font-size: 45px;
+    line-height: 42px;
+    font-family:PingFang-SC-Regular;
+    color: #282B3E;
+}
+.view-main .top .see-total-content{
+    margin-top: 46px;
+    position: relative;
+}
+.view-main .top .see-total-content span{
+    font-weight:500;
+    font-size: 20px;
+    line-height: 21px;
+    font-family:PingFang-SC-Medium;
+    color: #282B3E;
+}
+.view-main .top .see-total-content a{
+    float: right;
+    font-size:16px;
+    line-height: 16px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    color: #01A75B;
+}
+
+/* 列表 */
+.view-main .group{
+    margin-bottom: 90px;
+}
+.view-main .group .item-list{
+    margin-top: 67px;
+    overflow: hidden;
+}
+.view-main .group .item-list:nth-of-type(2){
+    margin-top: 46px
+}
+.view-main .group .item-list .row {
+    overflow: hidden;
+}
+.view-main .group .item-list .row{
+    float: left;
+    /* width: 25%; */
+    width: 373px;
+    padding: 36px 36px 30px 36px;
+    border: 1px solid rgba(0,167,88,0.3);
+    background-color:rgba(255, 255, 255 , 0.3);
+    margin-right: 32px;
+}
+.view-main .group .item-list .row:last-child{
+    margin-right: 0px;
+}
+.view-main .group .item-list .row .item .img-box{
+    height: 77px;
+    line-height: 77px;
+    overflow: hidden;
+}
+.view-main .group .item-list .row .item .img-box img{
+    float: left;
+    height: 100%;
+    width: 77px;
+    background-color: skyblue;
+}
+.view-main .group .item-list .row .item .img-box span{
+    display: block;
+    height: 100%;
+    font-size: 24px;
+    line-height: 23px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    padding-top: 27px;
+    margin-left: 99px;
+}
+
+.view-main .group .item-list .row .item .middle{
+    margin-top: 29px;
+    line-height: 1;
+}
+.item-list .row .item .middle .price{
+    padding-bottom: 19px;
+    border-bottom: 1px solid #282B3E;
+}
+.item-list .row .item .middle .price span{
+    display: inline-block;
+    line-height: 19px;
+    font-size: 20px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+}
+.item-list .row .item .middle .price span:last-child{
+    color: #00A758
+} 
+
+.item-list .row .item .middle .time-value{
+    margin-top: 22px;
+}
+.item-list .row .item .middle .time-value > div{
+    margin-top: 13px;
+}
+.item-list .row .item .middle .time-value > div:first-of-type{
+    margin-top: 0px;
+}
+.item-list .row .item .middle .time-value > div span{
+    display: inline-block;
+    font-size: 16px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 16px;
+    color: #282B3E;
+}
+
+
+.view-main .item-list .row .item .btn-or-more-box{
+    margin-top: 42px;
+}
+
+.item-list .row .item .btn-or-more-box button{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00A758;
+    border:1px solid rgba(0,167,88,1);
+    transition: all .5s ease;
+}
+.item-list .row .item .btn-or-more-box button:hover{
+    color: #00A758;
+    background-color: rgba(255, 255, 255 , 0);
+}
+.item-list .row .item .btn-or-more-box .see-more{
+    margin-top: 31px;
+    text-align: center;
+    line-height: 1.1;
+}
+.item-list .row .item .btn-or-more-box .see-more a{
+    display: inline-block;
+    font-size: 16px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 15px;
+    color: #00A758;
+}

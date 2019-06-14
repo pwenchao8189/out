@@ -52,7 +52,7 @@
     transition: all .6s ease;
 }
 .group-list .partners-list ul li:hover{
-    box-shadow: 0 0 10px 5px rgba(0,0,0, 0.09);
+    box-shadow: 0 0 10px 5px rgba(40, 43, 62 , 0.09);
 }
 .partners-list ul li .img-box{
     width: 188px;
@@ -87,7 +87,7 @@
     font-size: 13px;
     line-height: 12px;
     font-family:PingFang-SC-Medium;
-    color: #666666;
+    color: #282B3E;
     margin-top: 10px;
 }
 .partners-list .row .item i{
@@ -121,7 +121,7 @@
     height: 100%;
     font-size:14px;
     text-align: center;
-    color: #888888;
+    color: #282B3E;
     border:1px solid rgba(210,212,211,1);
     background-color: rgba(210,212,211,0.15);
     transition: all .6s ease;

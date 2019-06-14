@@ -1,0 +1,60 @@
+.user-amt-view .top-banner{
+    height: 435px;
+    position: relative;
+    background: url('../images/newView/help_banner02.png') no-repeat center / 100% 100%;
+}
+.user-amt-view .top-banner .logo{
+    position: absolute;
+    top: 28px;
+    left: 164px;
+    height: 148px;
+    width: 146px;
+}
+.user-amt-view .top-banner .banner-title{
+    position: absolute;
+    right: 220px;
+    top: 0px;
+    width: 320px;
+    height: 100%;
+    padding: 0px 28px;
+    background-color: #fff;
+}
+.user-amt-view .top-banner .banner-title p{
+    font-size: 45px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 42px;
+    padding-top: 132px;
+    color: #282B3E;
+}
+
+.user-amt-view .main{
+    max-width: 1590px;
+    margin: 49px auto 53px;
+}
+.user-amt-view .main .main-title{
+    font-size: 28px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 26px;
+    color: #282B3E;
+    padding-left: 18px;
+    border-left: 3px solid #01A75B;
+
+}
+
+
+.user-amt-view .main .content-group{
+    margin-top: 25px;
+    font-size:15px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    line-height: 26px;
+    color:#282B3E;
+}
+.user-amt-view .main .content-group > p{
+
+}
+.user-amt-view .main .content-group .danger-tips{
+    margin-top: 26px;
+}

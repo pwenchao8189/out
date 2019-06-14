@@ -36,7 +36,7 @@ header .right-nav .nav-list ul li a{
     font-weight:bold;
     font-size: 14px;
     font-family:'PingFang-SC-Bold';
-    color: #3A3A3A;
+    color: #282B3E;
 }
 header .right-nav .language{
     height: 75px;
@@ -50,5 +50,5 @@ header .right-nav .language span{
     text-align: center;
     border: 1px solid #00A758;
     border-radius: 50%;
-    color: #3A3A3A;
+    color: #282B3E;
 }

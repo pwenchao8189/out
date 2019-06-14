@@ -51,14 +51,14 @@
     line-height: 45px;
     font-family:'PingFang-SC-Regular';
     line-height: 45px;
-    color: #222222;
+    color: #282B3E;
 }
 .group-list .article-title-item p{
     font-weight:500;
     font-size: 20px;
     line-height: 20px;
     font-family:'PingFang-SC-Medium';
-    color: #333333;
+    color: #282B3E;
     margin-top: 46px;
     margin-bottom: 69px;
 }
@@ -76,12 +76,12 @@
 .platform-item ul li:nth-child(1),
 .platform-item ul li:nth-child(3){
     padding-right: 36px;
-    border-right: 1px solid #3A3A3A;
+    border-right: 1px solid #282B3E;
 }
 .platform-item ul li:nth-child(2),
 .platform-item ul li:nth-child(4){
     padding-left: 40px;
-    border-left: 1px solid #3A3A3A;
+    border-left: 1px solid #282B3E;
 }
 .platform-item ul li:nth-child(4),
 .platform-item ul li:nth-child(3){
@@ -122,7 +122,7 @@
 .platform-item ul li p{
     font-size: 15px;
     line-height: 32px;
-    color: #333333;
+    color: #282B3E;
     padding-bottom: 39px;
 }
 .platform-item ul li span{
@@ -131,7 +131,7 @@
     font-size: 24px;
     line-height: 23px;
     font-family:PingFang-SC-Heavy;
-    color: #222222;
+    color: #282B3E;
     margin-bottom: 15px;
 }
 
@@ -142,7 +142,7 @@
     font-size: 45px;
     line-height: 45px;
     font-family:'PingFang-SC-Regular';
-    color: #222222;
+    color: #282B3E;
     text-align: center;
 }
 .news-item .news-select-or-list{
@@ -200,7 +200,7 @@
     padding-left: 18px;
     padding-right: 30px;
     cursor: pointer;
-    color: #222222;
+    color: #282B3E;
     transition: background .3s;
     border-bottom: 1px solid #D2D4D3;
 }
@@ -262,7 +262,7 @@
     font-size: 20px;
     line-height: 20px;
     font-family:'PingFang-SC-Heavy';
-    color: #3A3A3A;
+    color: #282B3E;
     margin-top: 22px;
     margin-bottom: 23px;
 }
@@ -277,12 +277,12 @@
     line-height: 14px;
     font-family:'PingFang-SC-Medium';
     color: #FFFFFF;
-    background-color: #3A3A3A;
+    background-color: #282B3E;
     transition: all .5s ease;
     border: 1px solid transparent;
 }
 .news-info-list ul li  div a:hover{
-    color: #3A3A3A;
-    border-color: #3A3A3A;
+    color: #282B3E;
+    border-color: #282B3E;
     background-color: white;
 }
