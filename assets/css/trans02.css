@@ -106,7 +106,7 @@
     background-color: rgba(45,186,105,0.08);
 }
 .buy-sell .item .trade-table .tbody dl dd span,
-.buy-sell .item .trade-table .tbody dl dd i,{
+.buy-sell .item .trade-table .tbody dl dd i{
     color: #252525;
 }
 .buy-sell .item .trade-table .tbody dl dd:first-of-type span,
