@@ -59,17 +59,18 @@
                         if(j == ps_id){
                             $(this).parent('.item').toggleClass('open')
                             ev.stopPropagation();
+                            //点击当前的li标签,切换下拉框、给选中的li标签的父级元素添加选中样式同级元素移除选中样式、阻止事件冒泡
+                            var lis= $(this).parent('.item').children('ul').children('li');
+                            for(var k =0 ; k < lis.length ; k ++ ){
+                                $(lis[k]).on('click' , function(ev){
+                                    ev.stopPropagation();
+                                    $(this).parent().parent().removeClass('open');
+                                })
+                            }
                         }
                     }
                 })
             }
-            //点击li标签,赋值、切换下拉框、给选中的li标签添加选中样式同级元素移除选中样式、阻止事件冒泡
-            
-            $('.item ul li').on('click', function (ev) {
-                var _this = $(this);
-                $('.menu-list .item').toggleClass('open');
-                ev.stopPropagation();
-            })
             //点击除下拉框的其它地方，收起下拉框
             $(document).on('click', function () {
                 $('.menu-list .item').removeClass('open');
