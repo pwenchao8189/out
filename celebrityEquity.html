@@ -20,19 +20,19 @@
         <div class="right-nav r">
             <div class="nav-list l">
                 <ul>
-                    <li>
+                    <li data-value='invest.html'>
                         <a href="./invest.html">股权投资</a>
                     </li>
-                    <li>
+                    <li data-value='trans.html'>
                         <a href="./trans.html">股权转让</a>
                     </li>
-                    <li>
+                    <li data-value='celebrityEquity.html'>
                         <a href="./celebrityEquity.html">明星股权</a>
                     </li>
-                    <li>
+                    <li data-value='aboutUs.html'>
                         <a href="./aboutUs.html">关于我们</a>
                     </li>
-                    <li>
+                    <li data-value='login.html'>
                         <a href="./login.html">注册登录</a>
                     </li>
                 </ul>
@@ -57,12 +57,12 @@
                 <ul>
                     <li class="row clearfix">
                         <div class="img-box">
-                            <img src="./assets/images/celebrity_Equity/DuZnPddOZJNoNRH1.png" alt="">
+                            <img src="./assets/images/celebrity_Equity/zjtd.png" alt="">
                         </div>
                         <div class="right-content">
                             <div class="project-name item">
                                 <span>项目名称</span>
-                                <i>蚂蚁金服</i>
+                                <i>字节跳动</i>
                             </div>
                             <div class="Last-time-date item">
                                 <span>上轮融资日期</span>
@@ -77,7 +77,7 @@
                                 <i>1500 亿美金 </i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="./invest02.html" class="active">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -103,7 +103,7 @@
                                 <i>上市价格 </i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="" onclick="return false">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -129,7 +129,7 @@
                                 <i>650 亿美金</i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="" onclick="return false">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -155,7 +155,7 @@
                                 <i>576 亿美金 </i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="" onclick="return false">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -181,7 +181,7 @@
                                 <i>316 亿美金 </i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="" onclick="return false">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -207,7 +207,7 @@
                                 <i>174 亿美金</i>
                             </div>
                             <div class="see-details">
-                                <a href="">查看详情</a>
+                                <a href="" onclick="return false">查看详情</a>
                             </div>
                         </div>
                     </li>
@@ -270,16 +270,24 @@
             </div>
         </footer>
     </section>
+<script src="./lib/common.js"></script>
 <script>
-    var lis=$('.nav-list ul li');
-    var flag=true;
-
-    for(var i=0 ; i<lis.length ; i++){
-        lis[i].index=i;
-        $(lis[i]).on('click',function(){
-            $(this).addClass('active').siblings().removeClass('active');
-        })
-    }
+    // var lis=$('.nav-list ul li');
+    
+    // var path_nameArr=window.location.pathname.split('/');
+    // for(var i = 0 ; i < lis.length ; i++){
+    //     for(var j = 0 ; j < path_nameArr.length ; j++){
+    //         if($(lis[i]).attr('data-value') == path_nameArr[j]){
+    //             $(lis[i]).addClass('active').siblings().removeClass('active')
+    //         }
+    //     }
+    // }
+    // for(var i=0 ; i<lis.length ; i++){
+    //     lis[i].index=i;
+    //     $(lis[i]).on('click',function(){
+    //         $(this).addClass('active').siblings().removeClass('active');
+    //     })
+    // }
 </script>
 </body>
 </html>

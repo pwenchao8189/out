@@ -3,12 +3,16 @@
     position: relative;
     background: url('../images/newView/help_banner02.png') no-repeat center / 100% 100%;
 }
-.help-view .top-banner .logo{
+.help-view .top-banner .logo-box{
     position: absolute;
     top: 28px;
     left: 164px;
     height: 148px;
     width: 146px;
+}
+.help-view .top-banner .logo{
+    width: 100%;
+    height: 100%;
 }
 .help-view .top-banner .banner-title{
     position: absolute;
@@ -19,13 +23,15 @@
     padding: 0px 28px;
     background-color: #fff;
 }
-.help-view .top-banner .banner-title p{
+.help-view .top-banner .banner-title a{
+    display: block;
     font-size: 45px;
     font-family:PingFang-SC-Medium;
     font-weight:500;
     line-height: 42px;
     padding-top: 132px;
     color: #282B3E;
+    cursor: pointer;
 }
 
 

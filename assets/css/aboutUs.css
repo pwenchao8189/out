@@ -59,34 +59,64 @@
     border: none;
 }
 .two-row-investor-item  .team-list ul.investor-list-ul li{
-    width: 50%;
+    /* width: 50%; */
     border: none;
-    text-align: left;
+    text-align: center;
 }
-.two-row-investor-item  .team-list ul li:first-of-type > img{
-    margin-right: 173px;
+.two-row-investor-item  .team-list ul.investor-list-ul li .l-big-box{
+    /* margin-right: 173px; */
 }
-.two-row-investor-item  .team-list ul li:last-of-type > img{
-    margin-left: 173px;
+.two-row-investor-item  .team-list ul.investor-list-ul li .r-big-box{
+    /* margin-left: 173px; */
+}
+.two-row-investor-item  .team-list ul li .img-box{
+    transition: transform .5s ease;
+}
+.two-row-investor-item  .team-list ul li:first-of-type .img-box {
+    /* margin-right: 173px; */
+}
+.two-row-investor-item  .team-list ul li:last-of-type .img-box {
+    /* margin-left: 173px; */
 }
 .two-row-investor-item  .team-list ul li:first-of-type{
-    text-align: right;
+    margin-left: 274px;
+    /* text-align: right; */
 }
-
-.team-item .team-list ul li > img{
+.team-item .team-list ul li .img-box{
+    display: inline-block;
     height: 201px;
     width: 201px;
     border-radius: 50%;
     transition: transform .5s ease;
 }
-.team-item .team-list ul li > img:hover{
+.team-item .team-list ul li  .img-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /* transition: transform .5s ease; */
+}
+.team-item .team-list ul li  .gray-box{
+    display: inline-block;
+    height: 201px;
+    width: 201px;
+    border-radius: 50%;
+    background-color: #cfcfcf;
+    position: relative;
+}
+.team-item .team-list ul li  .gray-box img{
+    transform: scale(0.92);
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+.team-item .team-list ul li  .img-box:hover{
     transform: scale(1.2);
 }
-.team-item .team-list ul li > div{
+.team-item .team-list ul li  .name-box{
     text-align: center;
     margin-top: 20px;
 }
-.team-item .team-list ul li > div span{
+.team-item .team-list ul li  .name-box span{
     display: block;
     font-weight:800;
     font-size: 20px;
@@ -94,20 +124,23 @@
     font-family:PingFang-SC-Heavy;
     color: #282B3E;
 }
-.team-item .team-list ul li > div span:first-of-type{
+.team-item .team-list ul li  .name-box .name{
+    min-width: 201px;
+}
+.team-item .team-list ul li  .name-box span:first-of-type{
     margin-bottom: 8px;
 }
-.investor-item .investor-list ul li > div span:first-of-type{
+.investor-item .investor-list ul li  .name-box span:first-of-type{
     margin-bottom: 10px;
 }
-.investor-item .investor-list ul li > div span:last-of-type{
+.investor-item .investor-list ul li  .name-box span:last-of-type{
     font-weight: 500;
 }
-.team-item .team-list ul li > div > .link-share{
+.team-item .team-list ul li  .name-box > .link-share{
     margin-top: 14px;
     text-align: center;
 }
-.team-item .team-list ul li > div div a{
+.team-item .team-list ul li  .name-box div a{
     display: inline-block;
     height: 29px;
     line-height: 29px;
@@ -116,24 +149,25 @@
     background-color: #646C76;
     color: #ffffff;
 }
-.team-item .team-list ul.investor-list-ul li > div{
-    text-align: right
+.team-item .team-list ul.investor-list-ul li  .name-box{
+    /* text-align: right */
 }
-.team-item .team-list ul.investor-list-ul li:last-of-type > div{
-    text-align: left;
+.team-item .team-list ul.investor-list-ul li:last-of-type  .name-box{
+    /* text-align: left; */
 }
-.team-item .team-list ul.investor-list-ul li > div > div{
-    display: inline-block;
+.team-item .team-list ul.investor-list-ul li  .name-box > div{
+    /* display: inline-block;
     transform: translateX(-173px);
     text-align: center;
+    min-width: 201px; */
 }
-.team-item .team-list ul.investor-list-ul li:last-of-type > div > div{
-    transform: translateX(173px);
+.team-item .team-list ul.investor-list-ul li:last-of-type  .name-box > div{
+    /* transform: translateX(173px); */
 }
-.team-item .team-list ul.investor-list-ul li > div span:first-of-type{
+.team-item .team-list ul.investor-list-ul li  .name-box span:first-of-type{
     margin-bottom: 10px;
 }
-.team-item .team-list ul.investor-list-ul li > div span:last-of-type{
+.team-item .team-list ul.investor-list-ul li  .name-box span:last-of-type{
     font-weight: 500
 }
 

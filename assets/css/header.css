@@ -48,7 +48,8 @@ header .right-nav .language span{
     width: 35px;
     line-height: 35px;
     text-align: center;
-    border: 1px solid #00A758;
+    border: 1.5px solid #00A758;
     border-radius: 50%;
     color: #282B3E;
+    cursor: pointer;
 }

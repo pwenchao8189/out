@@ -42,6 +42,7 @@
 /* 列表 */
 .group-list .partners-list{
     margin-bottom: 78px;
+    padding-top: 20px;
 }
 .group-list .partners-list ul li{
     height: 122px;
@@ -57,11 +58,17 @@
 .partners-list ul li .img-box{
     width: 188px;
     height: 100%;
-    background-color: #D3D3D3;
-    text-align: center;
-    padding: 29px 0px;
+    background-color: #f2f2f2;
+    /* text-align: center; */
+    /* padding: 29px 0px; */
     position: absolute;
     left: -1px;
+}
+.partners-list ul li .img-box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
 .partners-list ul li .right-content{
@@ -126,8 +133,13 @@
     background-color: rgba(210,212,211,0.15);
     transition: all .6s ease;
 }
-.partners-list .row .see-details a:hover{
+.partners-list .row .see-details a.active{
     border-color: #00A758;
     background-color: rgba(0,167,88,0.15);
     color: #00A758;
+}
+.partners-list .row .see-details a:hover{
+    /* border-color: #00A758;
+    background-color: rgba(0,167,88,0.15);
+    color: #00A758; */
 }

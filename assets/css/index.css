@@ -258,13 +258,16 @@
 }
 .news-info-list ul li h6{
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 20px;
     line-height: 20px;
     font-family:'PingFang-SC-Heavy';
     color: #282B3E;
     margin-top: 22px;
     margin-bottom: 23px;
+}
+.news-info-list ul li p{
+    font-size: 15px;
 }
 .news-info-list ul li  div{
     margin-top: 22px;
