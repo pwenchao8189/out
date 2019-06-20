@@ -133,7 +133,7 @@
     margin-top: 27px;
 }
 
-.item-list .row .item .btn-or-more-box button{
+.item-list .row .item .btn-or-more-box > a{
     display: block;
     width: 100%;
     height: 35px;
@@ -145,7 +145,7 @@
     border:1px solid rgba(0,167,88,1);
     transition: all .5s ease;
 }
-.item-list .row .item .btn-or-more-box button:hover{
+.item-list .row .item .btn-or-more-box a:hover{
     color: #00A758;
     background-color: rgba(255, 255, 255 , 0);
 }
