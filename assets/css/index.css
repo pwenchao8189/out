@@ -36,8 +36,16 @@
     line-height: 28px;
     margin-top: 48px;
 }
-
-
+.group-list .banner-item .banner-title div .start-btn{
+    margin-top: 50px;
+}
+.group-list .banner-item .banner-title div .start-btn a{
+    font-size: 24px;
+    background: #00A758;
+    padding: 10px 32px;
+    color: #FFFFFF;
+    border: 1px solid #00A758;
+}
 
 .group-list .article-title-item {
     text-align: center;
@@ -230,7 +238,7 @@
     float: right;
 }
 .news-select-or-list .news-info-list ul li{
-    padding: 42px 37px 47px;
+    padding: 42px 30px 47px 37px;
     border: 1px solid #D2D4D3;
     position: relative;
     margin-top: 24px;

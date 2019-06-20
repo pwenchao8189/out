@@ -14,10 +14,15 @@ header{
 header .top-logo{
     margin-top: 10px;
 }
-header .top-logo img{
+header .top-logo a{
     display: block;
     height: 55px;
     width: 55px;
+}
+header .top-logo a img{
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 header .right-nav,header .right-nav .nav-list ul{
     overflow: hidden;
@@ -30,6 +35,7 @@ header .right-nav .nav-list ul li{
 }
 header .right-nav .nav-list ul li.active a{
     color: #00A758;
+    
 }
 header .right-nav .nav-list ul li a{
     display: block;
@@ -37,6 +43,10 @@ header .right-nav .nav-list ul li a{
     font-size: 14px;
     font-family:'PingFang-SC-Bold';
     color: #282B3E;
+    transition: color .3s ease;
+}
+header .right-nav .nav-list ul li a:hover{
+    color: #00A758;
 }
 header .right-nav .language{
     height: 75px;
@@ -48,7 +58,7 @@ header .right-nav .language span{
     width: 35px;
     line-height: 35px;
     text-align: center;
-    border: 1.5px solid #00A758;
+    border: 2px solid #00A758;
     border-radius: 50%;
     color: #282B3E;
     cursor: pointer;

@@ -10,6 +10,10 @@
     height: 148px;
     width: 146px;
 }
+.user-amt-view .top-banner .logo a{
+    width: 100%;
+    height: 100%;
+}
 .user-amt-view .top-banner .banner-title{
     position: absolute;
     right: 220px;

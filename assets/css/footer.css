@@ -14,10 +14,15 @@
     padding-bottom: 33px;
     border-bottom: 1px solid #888888;
 }
-.contact-type-group .left-logo img{
+.contact-type-group .left-logo a{
     display: block;
     height: 55px;
     width: 55px;
+}
+.contact-type-group .left-logo a img{
+    display: block;
+    height: 100%;
+    width: 100%;
 }
 .contact-type-group .right-contact{
     overflow: hidden;
