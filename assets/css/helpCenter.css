@@ -1,7 +1,7 @@
 .help-view .top-banner{
     height: 435px;
     position: relative;
-    background: url('../images/newView/help_banner02.png') no-repeat center / 100% 100%;
+    background: url('../images/home/index_banner.jpg') no-repeat center / 100% 100%;
 }
 .help-view .top-banner .logo-box{
     position: absolute;
@@ -27,7 +27,6 @@
     display: block;
     font-size: 45px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
     line-height: 42px;
     padding-top: 132px;
     color: #282B3E;
@@ -42,7 +41,6 @@
 .help-view .main .main-title{
     font-size: 28px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
     line-height: 26px;
     color: #282B3E;
     padding-left: 18px;
@@ -68,7 +66,6 @@
     line-height: 64px;
     padding-left: 20px;
     padding-right: 27px;
-    font-weight:500;
     font-size: 16px;
     font-family:'PingFang-SC-Medium';
     color: #282B3E;
@@ -131,4 +128,26 @@
 .help-view .main .menu-list .item ul li:hover{
     background-color: rgba(45, 186, 105 , 1);
     color: #ffffff;
+}
+
+.help-view .main .content-list{
+    font-size: 15px;
+    font-family: PingFang-SC-Bold;
+    line-height: 26px;
+    color: #282B3E;
+    margin-top: 25px;
+}
+.help-view .main .content-list .row{
+    /* margin-bottom: 15px; */
+}
+/* .help-view .main .content-list .row:first-child{
+    margin-top: 0px;
+} */
+.help-view .main .content-list .row > p{
+    padding-left: 25px;
+    margin: 7px 0px;
+}
+.help-view .main .content-list.item-2 .row > p,
+.help-view .main .content-list.item-3 .row > p{
+    padding-left: 0;
 }

@@ -78,7 +78,7 @@
     display: inline-block;
     height: 43px;
     width: 43px;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 .right-contact .share a i:hover{
     transform: scale(1.1);
@@ -86,22 +86,39 @@
 .right-contact .share a i.faceBook-icon{
     background: url('../images/Facebook.png') no-repeat center / 100% 100%;
 }
+.right-contact .share a i.faceBook-icon:hover{
+    background-image: url('../images/green_face.png');
+}
 .right-contact .share a i.in-icon{
     background: url('../images/linkedin.png') no-repeat center / 100% 100%;
+}
+.right-contact .share a i.in-icon:hover{
+    background-image: url('../images/green_in.png');
 }
 .right-contact .share a i.twitter-icon{
     background: url('../images/twitter.png') no-repeat center / 100% 100%;
 }
+.right-contact .share a i.twitter-icon:hover{
+    background-image: url('../images/green_twitter.png');
+}
 .right-contact .share a i.telegram-icon{
     background: url('../images/telegram.png') no-repeat center / 100% 100%;
+}
+.right-contact .share a i.telegram-icon:hover{
+    background-image: url('../images/green_telegram.png');
 }
 .right-contact .share a i.sina-icon{
     background: url('../images/sina.png') no-repeat center / 100% 100%;
 }
+.right-contact .share a i.sina-icon:hover{
+    background-image: url('../images/green_sina.png');
+}
 .right-contact .share a i.weChat-icon{
     background: url('../images/weChat.png') no-repeat center / 100% 100%;
 }
-
+.right-contact .share a i.weChat-icon:hover{
+    background-image: url('../images/green_weChat.png');
+}
 /* 下面的版权以及导航 */
 .footer-wrapper .footer-nav-group{
     overflow: hidden;
@@ -113,7 +130,7 @@
 }
 .footer-nav-group .left-copyright span{
     float: left;
-    font-weight:500;
+
     font-size: 14px;
     line-height: 14px;
     font-family:'PingFang-SC-Medium';
@@ -130,7 +147,6 @@
 }
 .footer-nav-group .right-nav a{
     float: left;
-    font-weight:500;
     font-size: 14px;
     line-height: 14px;
     font-family:'PingFang-SC-Medium';

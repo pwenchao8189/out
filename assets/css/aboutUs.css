@@ -10,14 +10,14 @@
     text-align: center;
 }
 .group-list .title-item h1{
-    font-weight:400;
+    font-weight:100;
     font-size: 45px;
     line-height: 45px;
     font-family:PingFang-SC-Regular;
     color: #282B3E;
 }
 .group-list .title-item h2{
-    font-weight: 500;
+    font-weight: 100;
     font-size: 20px;
     line-height: 20px;
     font-family:PingFang-SC-Medium;
@@ -28,7 +28,6 @@
     margin-top: 59px;
 }
 .group-list .team-item > p{
-    font-weight:400;
     font-size: 45px;
     line-height: 42px;
     font-family:PingFang-SC-Regular;
@@ -118,7 +117,6 @@
 }
 .team-item .team-list ul li  .name-box span{
     display: block;
-    font-weight:800;
     font-size: 20px;
     line-height: 19px;
     font-family:PingFang-SC-Heavy;
@@ -133,9 +131,7 @@
 .investor-item .investor-list ul li  .name-box span:first-of-type{
     margin-bottom: 10px;
 }
-.investor-item .investor-list ul li  .name-box span:last-of-type{
-    font-weight: 500;
-}
+
 .team-item .team-list ul li  .name-box > .link-share{
     margin-top: 14px;
     text-align: center;
@@ -149,26 +145,12 @@
     background-color: #646C76;
     color: #ffffff;
 }
-.team-item .team-list ul.investor-list-ul li  .name-box{
-    /* text-align: right */
-}
-.team-item .team-list ul.investor-list-ul li:last-of-type  .name-box{
-    /* text-align: left; */
-}
-.team-item .team-list ul.investor-list-ul li  .name-box > div{
-    /* display: inline-block;
-    transform: translateX(-173px);
-    text-align: center;
-    min-width: 201px; */
-}
-.team-item .team-list ul.investor-list-ul li:last-of-type  .name-box > div{
-    /* transform: translateX(173px); */
-}
+
 .team-item .team-list ul.investor-list-ul li  .name-box span:first-of-type{
     margin-bottom: 10px;
 }
 .team-item .team-list ul.investor-list-ul li  .name-box span:last-of-type{
-    font-weight: 500
+
 }
 
 
@@ -181,6 +163,7 @@
     margin-top: 77px;
 }
 .news-item .news-title{
+    font-weight: 100;
     font-size: 45px;
     line-height: 45px;
     font-family:'PingFang-SC-Regular';
@@ -205,7 +188,6 @@
     line-height: 56px;
     padding-left: 18px;
     padding-right: 30px;
-    font-weight:500;
     font-size: 15px;
     font-family:'PingFang-SC-Medium';
     color: #00A758;
@@ -293,15 +275,14 @@
 }
 .news-info-list ul li span{
     display: block;
-    font-weight: bold;
     font-size: 14px;
     line-height: 12px;
     font-family:'PingFang-SC-Medium';
     color: #282B3E;
 }
 .news-info-list ul li h6{
+    font-weight: normal;
     font-style: normal;
-    font-weight: 500;
     font-size: 20px;
     line-height: 20px;
     font-family:'PingFang-SC-Heavy';
@@ -319,7 +300,6 @@
 .news-info-list ul li  div a{
     display: inline-block;
     padding: 10px 16px;
-    font-weight: 500;
     font-size: 14px;
     line-height: 14px;
     font-family:'PingFang-SC-Medium';

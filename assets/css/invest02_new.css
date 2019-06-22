@@ -3,8 +3,8 @@
 }
 .view-main{
     width: 1590px;
-    margin: 61px auto 0px;
-    padding-top: 76px;
+    margin: 76px auto 0px;
+    padding-top: 61px;
 }
 .view-main .top{
 
@@ -20,7 +20,7 @@
     position: relative;
 }
 .view-main .top .see-total-content span{
-    font-weight:500;
+    /* font-weight:500; */
     font-size: 20px;
     line-height: 21px;
     font-family:PingFang-SC-Medium;
@@ -31,7 +31,7 @@
     font-size:16px;
     line-height: 16px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
+    /* font-weight:500; */
     color: #01A75B;
 }
 
@@ -78,7 +78,7 @@
     font-size: 24px;
     line-height: 23px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
+    /* font-weight:500; */
     padding-top: 27px;
     margin-left: 99px;
     color: #282B3E;
@@ -97,7 +97,7 @@
     line-height: 19px;
     font-size: 20px;
     font-family:PingFang-SC-Bold;
-    font-weight:bold;
+    /* font-weight:bold; */
     color: #282B3E;
 }
 .item-list .row .item .middle .price span:last-child{
@@ -117,7 +117,7 @@
     display: inline-block;
     font-size: 16px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
+    /* font-weight:500; */
     line-height: 16px;
     color: #282B3E;
 }
@@ -151,7 +151,7 @@
     display: inline-block;
     font-size: 16px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
+    /* font-weight:500; */
     line-height: 15px;
     color: #00A758;
 }

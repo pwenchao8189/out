@@ -3,8 +3,8 @@
 }
 .invest-main-wrapper .group-list{
     max-width: 1590px;
-    margin: 61px auto 0px;
-    padding-top: 76px;
+    margin: 76px auto 0px;
+    padding-top: 61px;
 }
 .invest-main-wrapper .group-list .banner-item{
     height: 435px;
@@ -142,14 +142,12 @@
 }
 .project-list ul li .project-item-info span{
     display: block;
-    font-weight:500;
     font-size: 26px;
     line-height: 25px;
     font-family:PingFang-SC-Medium;
     color: #222222;
 }
 .project-list ul li .project-item-info p{
-    font-weight:500;
     font-size: 16px;
     line-height: 24px;
     font-family:PingFang-SC-Medium;
@@ -162,7 +160,6 @@
 }
 .project-list ul li .project-item-info div a{
     display: inline-block;
-    font-weight:500;
     font-size:16px;
     font-family:PingFang-SC-Medium;
     line-height: 16px;

@@ -39,7 +39,7 @@ header .right-nav .nav-list ul li.active a{
 }
 header .right-nav .nav-list ul li a{
     display: block;
-    font-weight:bold;
+    font-weight:normal;
     font-size: 14px;
     font-family:'PingFang-SC-Bold';
     color: #282B3E;

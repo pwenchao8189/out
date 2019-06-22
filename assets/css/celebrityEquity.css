@@ -3,13 +3,13 @@
 }
 .celebrity-equity-wrapper .group-list{
     max-width: 1590px;
-    margin: 61px auto 0px;
-    padding-top: 76px;
+    margin: 76px auto 0px;
+    padding-top: 61px;
 }
 .celebrity-equity-wrapper .group-list .banner-item{
     height: 435px;
     width: 100%;
-    background: url('../images/celebrity_Equity/Jack_Vanzet_HP3.png') no-repeat center /100% 100%;
+    background: url('../images/home/index_banner.jpg') no-repeat center /100% 100%;
     text-align: center;
     padding-top: 16px;
     padding-bottom: 15px;
@@ -27,7 +27,7 @@
 }
 .group-list .banner-item .banner-title div h1,
 .group-list .banner-item .banner-title div h2{
-    font-weight: 400;
+    font-weight: 100;
     font-size: 45px;
     font-family:'PingFang-SC-Regular';
     line-height: 43px;
@@ -37,6 +37,17 @@
     font-size: 30px;
     line-height: 30px;
     margin-top: 48px;
+}
+.group-list .banner-item .banner-title div .start-btn{
+    margin-top: 50px;
+}
+.group-list .banner-item .banner-title div .start-btn a{
+    font-size: 20px;
+    font-weight: 100;
+    background: #282B3E;
+    padding: 10px 32px;
+    color: #FFFFFF;
+    border: 1px solid #282B3E;
 }
 
 /* 列表 */
@@ -62,7 +73,7 @@
     /* text-align: center; */
     /* padding: 29px 0px; */
     position: absolute;
-    left: -1px;
+    /* left: -1px; */
 }
 .partners-list ul li .img-box img{
     position: absolute;
@@ -90,7 +101,7 @@
 }
 .partners-list .row .item span{
     display: block;
-    font-weight:500;
+
     font-size: 13px;
     line-height: 12px;
     font-family:PingFang-SC-Medium;
@@ -99,7 +110,7 @@
 }
 .partners-list .row .item i{
     display: block;
-    font-weight:500;
+
     font-size:20px;
     line-height: 19px;
     font-family:PingFang-SC-Medium;

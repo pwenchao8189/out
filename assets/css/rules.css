@@ -1,0 +1,76 @@
+.rules-view .top-banner{
+    height: 435px;
+    position: relative;
+    background: url('../images/home/index_banner.jpg') no-repeat center / 100% 100%;
+}
+.rules-view .top-banner .logo-box{
+    position: absolute;
+    top: 28px;
+    left: 164px;
+    height: 148px;
+    width: 146px;
+}
+.rules-view .top-banner .logo{
+    width: 100%;
+    height: 100%;
+}
+.rules-view .top-banner .banner-title{
+    position: absolute;
+    right: 220px;
+    top: 0px;
+    width: 320px;
+    height: 100%;
+    padding: 0px 28px;
+    background-color: #fff;
+}
+.rules-view .top-banner .banner-title a{
+    display: block;
+    font-size: 45px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 42px;
+    padding-top: 132px;
+    color: #282B3E;
+    cursor: pointer;
+}
+
+
+.rules-view .main{
+    max-width: 1590px;
+    margin: 49px auto 65px;
+}
+.rules-view .main .main-title{
+    font-size: 28px;
+    font-family:PingFang-SC-Medium;
+    font-weight:500;
+    line-height: 26px;
+    color: #282B3E;
+    padding-left: 18px;
+    border-left: 3px solid #01A75B;
+
+}
+
+.rules-view .main .content-list{
+    font-size: 15px;
+    font-family: PingFang-SC-Bold;
+    line-height: 26px;
+    color: #282B3E;
+    margin-top: 25px;
+    
+}
+.rules-view .main .content-list > p{
+    margin-bottom: 10px;
+}
+
+.rules-view .main .content-list .row > p{
+    margin: 10px 0px;
+}
+.rules-view .main .content-list .row .child-list{
+    /* padding-left: 15px; */
+}
+.rules-view .main .content-list .row .child-list span{
+    float: left;
+}
+.rules-view .main .content-list .row .child-list p{
+    margin-left: 24px;
+}

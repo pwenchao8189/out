@@ -54,9 +54,30 @@
     line-height: 26px;
     color:#282B3E;
 }
-.user-amt-view .main .content-group > p{
-
+.user-amt-view .main .content-group .tips-item{
+    margin-top: 15px;
 }
-.user-amt-view .main .content-group .danger-tips{
-    margin-top: 26px;
+.user-amt-view .main .content-group .tips-item:first-child{
+    margin-top: 0px;
+}
+.user-amt-view .main .content-group .tips-item .row{
+    padding-left:15px; 
+    overflow: hidden;
+}
+.user-amt-view .main .content-group .tips-item  .row span{
+    float: left;
+}
+.user-amt-view .main .content-group .tips-item .row p{
+    /* margin-left: 24px; */
+}
+
+
+.user-amt-view .main .content-group .tips-item .row .is-child-row > span{
+    float: none;
+}
+.user-amt-view .main .content-group .tips-item.item-2 .row .child-row{
+    /* padding-left: 10px; */
+}
+.user-amt-view .main .content-group .tips-item > p{
+    padding-left: 15px;
 }

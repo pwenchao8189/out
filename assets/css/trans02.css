@@ -4,7 +4,7 @@
 .main-view{
     max-width: 1590px;
     margin: 64px auto 88px;
-    padding-top: 76px;
+    padding-top: 61px;
 }
 
 .chart-group{
@@ -111,7 +111,6 @@
 }
 .buy-sell .item .trade-table .tbody dl dd:first-of-type span,
 .buy-sell .item .trade-table .tbody dl dd:first-of-type i{
-    font-weight: 800;
     font-family:PingFang-SC-Heavy;
     color: #282B3E;
 }

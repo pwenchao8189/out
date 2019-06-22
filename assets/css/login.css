@@ -2,11 +2,12 @@
     position: relative;
 }
 .login-mian .group{
-    position: absolute;
+    /* position: absolute; */
     width: 480px;
-    top: 225px;
+    margin: 225px auto 0px;
+    /* top: 225px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 .login-mian .group .title h1,
 .login-mian .title div{
@@ -41,7 +42,7 @@
     padding: 0px 8px;
     font-size:14px;
     font-family:PingFang-SC-Medium;
-    font-weight:500;
+    /* font-weight:500; */
     line-height: 13px;
     color:#282B3E;
     background-color: #fff;
