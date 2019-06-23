@@ -164,3 +164,9 @@
 .checkbox-pwd-group .pwd-login a:hover{
     color: #00A758;
 }
+.footer-wrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
